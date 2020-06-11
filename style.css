@@ -1,0 +1,78 @@
+body {
+    font-family: 'Staatliches', cursive;
+    font-size: 10px;
+    margin: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.container-body {
+    widows: 100%;
+}
+
+.btn {
+    font-family: 'Staatliches', cursive;
+    font-size: 2.0em;
+    height: 40px;
+    width: 120px;
+    margin: 5px;
+    background-color: rgb(154, 204, 153);
+    border: 2px solid black;
+}
+
+.btn:hover{
+    background-color: #FFFFFF;
+    border: 2px solid rgb(154, 204, 153);;
+}
+
+.snake {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+}
+
+.snakeFood {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    z-index: 0;
+}
+
+.gameBoard {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(154, 204, 153);
+    border: 2px solid black;
+    position: relative;
+}
+
+.pointBoard {
+    border: 2px dashed black;
+    height: 50px;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gameOverBoard {
+    width: 500px;
+    height: 500px;
+    background-color: #000;
+    border: 2px solid black;
+    color: whitesmoke;
+}
+
+.pointText {
+    width: 50%;
+    font-size: 2.0em;
+}
+
+.point{
+    width: 50%;
+    font-size: 2.0em;
+}
